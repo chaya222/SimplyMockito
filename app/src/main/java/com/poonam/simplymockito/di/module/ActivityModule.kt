@@ -1,0 +1,1 @@
+package com.poonam.simplymockito.di.moduleimport com.poonam.simplymockito.MainActivityimport dagger.Moduleimport dagger.android.ContributesAndroidInjector@Moduleabstract class ActivityModule{    @ContributesAndroidInjector    internal abstract fun contributMainActivity() : MainActivity}

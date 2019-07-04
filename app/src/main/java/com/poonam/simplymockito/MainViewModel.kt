@@ -1,0 +1,1 @@
+package com.poonam.simplymockitoimport androidx.lifecycle.ViewModelimport javax.inject.Injectclass MainViewModel @Inject constructor(): ViewModel(){    fun getName() = "Its Done"}
