@@ -1,0 +1,1 @@
+package com.poonam.simplymockito.di.moduleimport android.content.Contextimport com.poonam.simplymockito.SimplyMockitoApplicationimport dagger.Moduleimport dagger.Provides@Moduleclass ContextModule {    @Provides    fun provideContext(application: SimplyMockitoApplication): Context {        return application.applicationContext    }}
