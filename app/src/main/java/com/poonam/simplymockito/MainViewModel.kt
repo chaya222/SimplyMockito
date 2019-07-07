@@ -1,1 +1,1 @@
-package com.poonam.simplymockitoimport androidx.lifecycle.ViewModelimport javax.inject.Injectclass MainViewModel @Inject constructor(): ViewModel(){    fun getName() = "Its Done"}
+package com.poonam.simplymockitoimport androidx.lifecycle.ViewModelimport com.poonam.simplymockito.feature.repo.GitRepoimport javax.inject.Injectclass MainViewModel @Inject constructor(): ViewModel(){    fun getGitUser(userGitName : String) = "pooo"}

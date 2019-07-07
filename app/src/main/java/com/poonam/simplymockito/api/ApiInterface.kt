@@ -1,0 +1,1 @@
+package com.poonam.simplymockito.apiimport com.poonam.simplymockito.feature.data.GitUserProfileResponseimport io.reactivex.Observableimport retrofit2.http.GETimport retrofit2.http.Pathinterface ApiInterface{    @GET("users/{user}")    fun getGitProfile(@Path("user") gitUser : String) : Observable<GitUserProfileResponse>}

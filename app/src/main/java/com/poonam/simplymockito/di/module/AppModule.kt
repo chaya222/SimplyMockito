@@ -1,0 +1,1 @@
+package com.poonam.simplymockito.di.moduleimport com.poonam.simplymockito.api.ApiInterfaceimport com.poonam.simplymockito.feature.repo.GitRepoimport dagger.Moduleimport dagger.Providesimport javax.inject.Singleton@Moduleclass AppModule{    @Provides    @Singleton    fun provideGitRepo(apiInterface: ApiInterface) : GitRepo = GitRepo(apiInterface = apiInterface)}

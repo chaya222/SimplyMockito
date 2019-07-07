@@ -1,0 +1,1 @@
+package com.poonam.simplymockito.utilsimport android.content.Contextimport android.view.Viewfun View.show() {    this.visibility=View.VISIBLE}fun View.hide() {    this.visibility=View.GONE}
