@@ -2,3 +2,5 @@
 
 ## Preview
 <img src="simplyMokito.gif" width="250" height="480"/> &nbsp;&nbsp;
+
+# This Project provides an idea about mockito testing using mvvm architecture and dagger2
