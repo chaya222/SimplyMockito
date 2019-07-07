@@ -1,4 +1,4 @@
-# Mockito with Mvvm , Livedata , Rxjava2 and Dagger2 (With gradient color in lines)
+# Mockito Testing with Mvvm , Livedata , Rxjava2 and Dagger2 
 
 ## Preview
-<img src="SimplyMockito.gif" width="250" height="480"/> &nbsp;&nbsp;
+<img src="simplyMockito.gif" width="250" height="480"/> &nbsp;&nbsp;
